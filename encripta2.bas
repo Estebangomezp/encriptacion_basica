@@ -25,7 +25,7 @@ Dim Resultado As Variant
     Resultado = ""
     
     For J = 1 To lTexto Step 1
-        Resultado = Resultado & Chr(255 - mTexto(J))
+        Resultado = Resultado & Chr(256 - mTexto(J))
     Next J
     
     Encripta2 = Resultado
